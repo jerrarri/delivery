@@ -1,0 +1,244 @@
+/* .background{
+    dispaly:flex; 
+    flex-direction: column;
+    width:375pt;
+    height:812pt;
+
+}
+.back{
+
+}
+.ground1{
+
+}
+.ground2{
+    
+}
+.ground3{
+    
+}
+.ground4{
+    
+} */
+
+.background{
+    width:375pt;height:200pt;
+    background-image: url('pass_1.png'),url('pass_2.png');
+    background-repeat:no-repeat;
+    background-position: 50% 10%, 50% 40%;
+    background-size:100% auto;
+    flex-direction: column;
+    background-color:#FEFAF6
+
+    
+    
+}
+#a{
+    margin-top: 2pt;
+}
+
+.container {
+    background:
+    dispaly:flex; 
+    flex-direction: column;
+    width:375pt;
+    height:812pt;
+    align-content: flex-start;
+}
+
+.item{
+    flex:grow;
+
+
+}
+
+.item1{
+    background-color:#ffffff 
+    background-image:
+    background-size: cover;
+    height:68pt;
+    text-align:center;
+    font-size:15pt;
+    
+}
+.item2{
+    height:90pt;
+
+}
+.search{
+    margin: 14pt 44pt 10pt 44pt ;
+    height:56pt;
+    width:287pt;
+    border: 1px solid #bfc8cc;
+    border-radius: 40px;
+    background:#ffffff;
+    font-size: 22px;
+    font-weight:;
+    text-align: center;
+    background-image : url('pass_14.png'); 
+    background-position: left;
+    background-size: 30pt;
+    background-repeat:no-repeat;
+}
+/* input {
+
+    background-image : url('pass_14.png'); 
+  
+    background-position:top left; 
+  
+    background-repeat:no-repeat;
+  
+    } */
+
+
+
+.item3{
+    height:427pt;
+    font:17pt bold left;
+}
+.menu{
+    width:339pt;
+    height:335pt;
+    margin: 0 18pt 0 18pt;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: #ffffff;
+    font-size: 15pt;
+
+}
+.menu1{
+    height:63pt;
+    width:63pt;
+    margin: 10pt 10pt 20pt 15pt;
+    background-image: url('menu_1.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+
+}
+.menu2{
+    height:63pt;
+    width:63pt;
+    margin: 10pt 10pt 20pt 10pt;
+    background-image: url('menu_2.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+    
+}
+.menu3{
+    height:63pt;
+    width:63pt;
+    margin: 10pt 10pt 20pt 10pt;
+    background-image: url('menu_3.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+    
+}
+.menu4{
+    height:63pt;
+    width:63pt;   
+    margin: 10pt 10pt 20pt 15pt;
+    background-image: url('menu_4.png');
+    background-repeat:no-repeat;
+    background-size: 100%; 
+}
+.menu5{ 
+    height:63pt;
+    width:63pt;
+    margin: 10pt 10pt 20pt 30pt;
+    background-image: url('menu_5.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+    
+
+    
+}
+.menu6{
+    height:63pt;
+    width:63pt;
+    margin: 10pt 05pt 20pt 30pt;
+    background-image: url('menu_6.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+    
+    
+
+}
+.menu7{
+    height:63pt;
+    width:63pt;
+    margin: 10pt 10pt 20pt 15pt;
+    background-image: url('menu_7.png');
+    background-repeat:no-repeat;
+    background-size: 100%; 
+    font-size: 12pt;;
+
+}
+.menu8{
+    height:63pt;
+    width:63pt;
+    margin: 10pt 10pt 20pt 15pt;
+    background-image: url('menu_8.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+}
+.menu9{
+    height:63pt;
+    width:63pt;
+    margin: 10pt 10pt 20pt 20pt;
+    background-image: url('menu_9.jpg');
+    background-repeat:no-repeat;
+    background-size: 103%;
+
+}
+.think{
+    height: 72pt;
+    background-image : url('think_1.jpg'); 
+
+}
+.item4{
+    height:125pt;
+    font:17pt bold left;
+}
+.sub{
+    width:339pt;
+    height:105pt;
+    margin: 0 9pt 0 9pt;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color:#FEFAF6;
+
+}
+.sub1{
+    height:105pt;
+    width:97pt;
+    margin: 2pt 9pt 0 0;
+    background-image: url('moms.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+}
+.sub2{
+    height:105pt;
+    width:97pt;
+    margin: 2pt 9pt 0 9pt;
+    background-image: url('myung.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+.sub3{
+    height:105pt;
+    width:97pt;
+    margin: 2pt 9pt 0 9pt;
+    background-image: url('domino.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+

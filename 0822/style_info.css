@@ -1,0 +1,266 @@
+.container{
+    display :flex; 
+    flex-direction: column;
+    width:375pt;
+    
+    align-content: flex-start;   
+}
+.title-wrapper{
+    height: 181pt;
+    width:375pt;
+    
+    box-shadow: 0 1pt 2pt #00000029;
+    margin-bottom: 6pt;
+}
+.info-wrapper{
+    height: 62pt;
+    width:375pt;
+    box-shadow: 0 1pt 2pt #00000029;
+    margin-bottom: 6pt;
+}
+
+.menu-wrapper{
+    height: auto;
+    width:375pt;
+    overflow: hidden;
+    box-shadow: 0 1pt 2pt #00000029;
+}
+
+#back{
+    float:left;
+    margin-top:32pt; 
+    margin-left:29.5pt;
+}
+
+#heart{
+    float:right;
+    margin-top:25.49pt;
+    margin-right:29.5pt;
+}
+
+.logo{
+    margin-left:149pt;
+    margin-top: 48pt;
+}
+
+.title{
+    
+    
+    
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 나눔고딕;
+    margin-bottom: 26pt;
+    margin-top:14pt;
+    margin-left:138pt;
+}
+/* flex:1;
+    display: block;
+    text-align:center;
+*/
+
+.info00{
+    display: flex;
+}
+
+.info{
+    font-size: 11pt;
+    font-family: 나눔고딕; 
+    margin-top:13pt;
+    margin-bottom:9pt;
+
+}
+
+.infoo{
+    font-size: 11pt;
+    font-family: 나눔고딕; 
+    margin-bottom:16pt;
+}
+
+.info1{
+    position: absolute;
+    left:27pt;
+}
+
+.info2{
+    position: absolute;
+    left:110pt; 
+}
+
+#call{
+    position: absolute;
+    left:313pt; 
+    margin-top:13pt;
+    width: 33pt;
+    height: 33pt;
+}
+
+.m-container{
+    height: 58pt;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #00000029;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 나눔고딕; 
+}
+
+/*.m-container .menu_item{
+    display: flex;
+    
+    margin-left: 92px;
+    margin-top:20px;
+    margin-right:92px;
+}*/
+
+nav {
+
+    left: 0px;
+    top: 0px;
+    width:100%;
+}
+
+nav div{
+   display: flex;
+   position: relative;
+   margin: 0 auto;
+   width: 375pt;
+}
+
+nav div a{
+    flex:1;
+    display: block;
+    text-align:center;
+    height:58pt;
+    line-height: 58pt;
+    color: #636363;
+}
+
+nav div a.on{
+    color: #000000;
+}
+
+nav div > span{
+    position: absolute;
+    left:75pt;
+    bottom:0;
+    width:40pt;
+    height:4pt;
+    background:#FF6B6B;
+    opacity:0;
+    transition: all .5s;
+}
+
+nav div a:nth-child(1).on ~ span{
+    left:75pt;
+    opacity:1;
+}
+
+nav div a:nth-child(2).on ~ span{
+    left:264pt;
+    opacity:1;
+}
+
+.label{
+    height:44.5pt;
+    background-color: #EBE7E766;
+    display: flex;
+    font-size: 14pt;
+    font-family: 나눔고딕; 
+    
+}
+.item{
+    font-size: 12pt;
+    font-family: 나눔고딕;
+    margin-left:36pt;
+    margin-top:15pt;
+}
+.menu{
+    
+    border-bottom: 0.2px solid #00000029;
+}
+
+.content{
+    
+    font-size: 12pt;
+    font-family: 나눔고딕; 
+}
+
+.price{
+    display:flex;
+}
+
+.price01{
+    float:left;
+    font-size: 12pt;
+    font-family: 나눔고딕;
+    font-weight: bold;
+    margin-left:36pt;
+}
+
+.price11{
+    margin-top:16.5pt;
+    margin-bottom:16.5pt
+}
+.price1{
+    margin-bottom:16.5pt;
+    
+}
+
+.price02{
+    position: absolute;
+    left: 134pt;
+    font-size: 12pt;
+    font-family: 나눔고딕;
+    margin-left: 134pt;
+}
+
+.price22{
+    margin-top:16.5pt;
+    margin-bottom:16.5pt;
+}
+.price2{
+    margin-bottom:16.5pt;
+    
+}
+
+.loc{
+    display:flex;
+    font-size: 12pt;
+    font-family: 나눔고딕;
+}
+.loc01{
+    
+    margin-left:36pt;
+}
+
+.loc02{
+    position: absolute;
+    left: 42pt;
+    font-size: 12pt;
+    font-family: 나눔고딕;
+    margin-left: 100pt;
+}
+
+.loc11{
+    margin-top:16.5pt;
+    margin-bottom:16.5pt;
+}
+.loc1{
+    margin-bottom:59pt;
+}
+.loc22{
+    margin-top:16.5pt;
+    margin-bottom:16.5pt;
+}
+.loc2{
+    margin-bottom:59pt;
+}
+
+#cart{
+    width:60.6pt;
+    height: 60.6pt;
+    position :fixed;
+    left:286pt;
+    bottom:35pt;
+}
